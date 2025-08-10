@@ -4,18 +4,18 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "create-tickets-table": "node utils/runSchema.js",
-  "seed": "node utils/seed.js"
-},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-tickets-table": "node utils/runSchema.js",
+    "seed": "node utils/seed.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "pg": "^8.16.3"
   }
 }
-
